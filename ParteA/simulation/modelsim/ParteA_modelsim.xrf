@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Administrador/Desktop/Proyectos/ParteA/Waveform.vwf
+source_file = 1, C:/Users/Administrador/Desktop/Proyectos/ParteA/ParteA_testbench.vhd
+source_file = 1, C:/Users/Administrador/Desktop/Proyectos/ParteA/ParteA.vhd
+source_file = 1, C:/Users/Administrador/Desktop/Proyectos/ParteA/Block1.bdf
+source_file = 1, C:/Users/Administrador/Desktop/Proyectos/ParteA/Block2.bdf
+source_file = 1, C:/Users/Administrador/Desktop/Proyectos/ParteA/db/ParteA.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = Block1
+instance = comp, \LED~output , LED~output, Block1, 1
+instance = comp, \SW1~input , SW1~input, Block1, 1
+instance = comp, \SW2~input , SW2~input, Block1, 1
+instance = comp, \SW3~input , SW3~input, Block1, 1
+instance = comp, \inst|LED , inst|LED, Block1, 1

@@ -1,0 +1,109 @@
+$comment
+	File created using the following command:
+		vcd file ParteA.msim.vcd -direction
+$end
+$date
+	Mon Oct 21 19:14:26 2024
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module ParteA_vlg_vec_tst $end
+$var reg 1 ! SW1 $end
+$var reg 1 " SW2 $end
+$var reg 1 # SW3 $end
+$var wire 1 $ LED $end
+$var wire 1 % sampler $end
+$scope module i1 $end
+$var wire 1 & gnd $end
+$var wire 1 ' vcc $end
+$var wire 1 ( unknown $end
+$var tri1 1 ) devclrn $end
+$var tri1 1 * devpor $end
+$var tri1 1 + devoe $end
+$var wire 1 , LED~output_o $end
+$var wire 1 - SW1~input_o $end
+$var wire 1 . SW3~input_o $end
+$var wire 1 / SW2~input_o $end
+$var wire 1 0 LED~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+x$
+x%
+0&
+1'
+x(
+1)
+1*
+1+
+x,
+0-
+0.
+0/
+x0
+$end
+#3454
+00
+#6029
+0,
+0$
+#10000
+1!
+0%
+#10779
+1-
+#14006
+10
+#16598
+1,
+1$
+#50000
+1#
+1%
+#50769
+1.
+#150000
+1"
+0%
+#150786
+1/
+#153993
+00
+#156568
+0,
+0$
+#250000
+0!
+1%
+#250884
+0-
+#254363
+10
+#256955
+1,
+1$
+#340000
+0#
+0%
+#340874
+0.
+#440000
+0"
+1%
+#440893
+0/
+#444347
+00
+#446922
+0,
+0$
+#1000000

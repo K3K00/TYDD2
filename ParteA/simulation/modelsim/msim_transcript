@@ -1,0 +1,50 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do ParteA_run_msim_gate_verilog.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+. {ParteA_7_1200mv_0c_slow.vo}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Block1
+# 
+# Top level modules:
+# 	Block1
+# 
+# vcom -93 -work work {C:/Users/Administrador/Desktop/Proyectos/ParteA/ParteA_testbench.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ParteA_testbench
+# -- Compiling architecture behavior of ParteA_testbench
+# ** Warning: [4] C:/Users/Administrador/Desktop/Proyectos/ParteA/ParteA_testbench.vhd(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrador/Desktop/Proyectos/ParteA/ParteA_testbench.vhd(35): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrador/Desktop/Proyectos/ParteA/ParteA_testbench.vhd(36): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrador/Desktop/Proyectos/ParteA/ParteA_testbench.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrador/Desktop/Proyectos/ParteA/ParteA_testbench.vhd(38): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrador/Desktop/Proyectos/ParteA/ParteA_testbench.vhd(39): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrador/Desktop/Proyectos/ParteA/ParteA_testbench.vhd(40): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrador/Desktop/Proyectos/ParteA/ParteA_testbench.vhd(41): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_ver -L cycloneiii_ver -L gate_work -L work -voptargs="+acc"  ParteA_testbench
+# vsim +transport_int_delays +transport_path_delays -L altera_ver -L cycloneiii_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps ParteA_testbench 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.partea_testbench(behavior)
+# ** Warning: (vsim-3473) Component instance "uut : ParteA" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /partea_testbench File: C:/Users/Administrador/Desktop/Proyectos/ParteA/ParteA_testbench.vhd
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all

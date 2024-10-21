@@ -1,0 +1,132 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus II 64-Bit"
+// VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
+
+// DATE "10/21/2024 20:11:54"
+
+// 
+// Device: Altera EP3C120F780C7 Package FBGA780
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module Block1 (
+	LED,
+	SW1,
+	SW2,
+	SW3);
+output 	LED;
+input 	SW1;
+input 	SW2;
+input 	SW3;
+
+// Design Ports Information
+// LED	=>  Location: PIN_AG19,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// SW3	=>  Location: PIN_AG23,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// SW1	=>  Location: PIN_AC14,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// SW2	=>  Location: PIN_AD18,	 I/O Standard: 2.5 V,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+// synopsys translate_off
+initial $sdf_annotate("ParteA_min_1200mv_0c_v_fast.sdo");
+// synopsys translate_on
+
+wire \LED~output_o ;
+wire \SW1~input_o ;
+wire \SW2~input_o ;
+wire \SW3~input_o ;
+wire \inst|LED~combout ;
+
+
+// Location: IOOBUF_X72_Y0_N9
+cycloneiii_io_obuf \LED~output (
+	.i(\inst|LED~combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\LED~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \LED~output .bus_hold = "false";
+defparam \LED~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOIBUF_X56_Y0_N22
+cycloneiii_io_ibuf \SW1~input (
+	.i(SW1),
+	.ibar(gnd),
+	.o(\SW1~input_o ));
+// synopsys translate_off
+defparam \SW1~input .bus_hold = "false";
+defparam \SW1~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X85_Y0_N8
+cycloneiii_io_ibuf \SW2~input (
+	.i(SW2),
+	.ibar(gnd),
+	.o(\SW2~input_o ));
+// synopsys translate_off
+defparam \SW2~input .bus_hold = "false";
+defparam \SW2~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X81_Y0_N22
+cycloneiii_io_ibuf \SW3~input (
+	.i(SW3),
+	.ibar(gnd),
+	.o(\SW3~input_o ));
+// synopsys translate_off
+defparam \SW3~input .bus_hold = "false";
+defparam \SW3~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: LCCOMB_X77_Y1_N8
+cycloneiii_lcell_comb \inst|LED (
+// Equation(s):
+// \inst|LED~combout  = (\SW1~input_o  & (!\SW2~input_o )) # (!\SW1~input_o  & ((\SW2~input_o ) # (\SW3~input_o )))
+
+	.dataa(\SW1~input_o ),
+	.datab(\SW2~input_o ),
+	.datac(\SW3~input_o ),
+	.datad(gnd),
+	.cin(gnd),
+	.combout(\inst|LED~combout ),
+	.cout());
+// synopsys translate_off
+defparam \inst|LED .lut_mask = 16'h7676;
+defparam \inst|LED .sum_lutc_input = "datac";
+// synopsys translate_on
+
+assign LED = \LED~output_o ;
+
+endmodule

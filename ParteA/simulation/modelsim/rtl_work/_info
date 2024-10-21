@@ -1,0 +1,75 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Administrador\Desktop\Proyectos\ParteA\simulation\modelsim
+Epartea
+Z1 w1729550518
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\Administrador\Desktop\Proyectos\ParteA\simulation\modelsim
+Z5 8C:/Users/Administrador/Desktop/Proyectos/ParteA/ParteA.vhd
+Z6 FC:/Users/Administrador/Desktop/Proyectos/ParteA/ParteA.vhd
+l0
+L4
+V4H9MU;^aE_cW_V`j>?`kC3
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1729552375.441000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/Administrador/Desktop/Proyectos/ParteA/ParteA.vhd|
+Z10 !s107 C:/Users/Administrador/Desktop/Proyectos/ParteA/ParteA.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 GfzKa]5D5OW]78K:jPLec0
+!i10b 1
+Abehavioral
+R2
+R3
+DEx4 work 6 partea 0 22 4H9MU;^aE_cW_V`j>?`kC3
+l14
+L12
+V15Zm=?:jIlJFRD51Smae=0
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 S3QQ676Gf[621`?EJBU?X2
+!i10b 1
+Epartea_testbench
+Z13 w1729550279
+R2
+R3
+R4
+Z14 8C:/Users/Administrador/Desktop/Proyectos/ParteA/ParteA_testbench.vhd
+Z15 FC:/Users/Administrador/Desktop/Proyectos/ParteA/ParteA_testbench.vhd
+l0
+L4
+VJDah0aXW:8>dN6cVeEbBn2
+!s100 ii9KZzb8d[gL^hLDbddNK2
+R7
+31
+!i10b 1
+Z16 !s108 1729552375.565000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/Administrador/Desktop/Proyectos/ParteA/ParteA_testbench.vhd|
+Z18 !s107 C:/Users/Administrador/Desktop/Proyectos/ParteA/ParteA_testbench.vhd|
+R11
+R12
+Abehavior
+R2
+R3
+DEx4 work 16 partea_testbench 0 22 JDah0aXW:8>dN6cVeEbBn2
+l24
+L7
+V0mZonJi41RDaMfc3]eIRW0
+!s100 `E28@zOg=MZC`Ci@EcXLS2
+R7
+31
+!i10b 1
+R16
+R17
+R18
+R11
+R12

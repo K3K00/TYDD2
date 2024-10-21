@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Administrador\Desktop\Proyectos\ParteA\simulation\qsim
+vParteA
+Z1 IJ[E]]j_OVlP<5O7hS4DB82
+Z2 V;cQ7?OBzZ:^67KOIOz39E2
+Z3 dC:\Users\Administrador\Desktop\Proyectos\ParteA\simulation\qsim
+Z4 w1729548861
+Z5 8ParteA.vo
+Z6 FParteA.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|ParteA.vo|
+Z9 o-work work -O0
+Z10 n@parte@a
+!i10b 1
+Z11 !s100 ajd=NBRC0@nH7QIm>ce6i3
+!s85 0
+Z12 !s108 1729548863.577000
+Z13 !s107 ParteA.vo|
+!s101 -O0
+vParteA_vlg_check_tst
+!i10b 1
+Z14 !s100 <SL[5iL@Ebe:iJQ3OVfZ:1
+Z15 IU[?0YbY]9e;HYMM;lm>4L0
+Z16 VMjdloCO2SAOjg9;1DOBni1
+R3
+Z17 w1729548859
+Z18 8ParteA.vt
+Z19 FParteA.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z20 !s108 1729548863.721000
+Z21 !s107 ParteA.vt|
+Z22 !s90 -work|work|ParteA.vt|
+!s101 -O0
+R9
+Z23 n@parte@a_vlg_check_tst
+vParteA_vlg_sample_tst
+!i10b 1
+Z24 !s100 ojbaV=kjlKHPN;YU7cd;O1
+Z25 I6DJGR97FCeV<bBa8=gV240
+Z26 Vh6=k1DJMo[IG5=K^R20>F0
+R3
+R17
+R18
+R19
+L0 29
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z27 n@parte@a_vlg_sample_tst
+vParteA_vlg_vec_tst
+!i10b 1
+Z28 !s100 c>YFehJWh7TMmnjK70Ccl2
+Z29 IQ:EKg1b4n8[icHKNlDL7J3
+Z30 V4oWR?3::JAA[eBg0[26[A1
+R3
+R17
+R18
+R19
+Z31 L0 156
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z32 n@parte@a_vlg_vec_tst

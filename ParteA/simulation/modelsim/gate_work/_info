@@ -1,0 +1,61 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Administrador\Desktop\Proyectos\ParteA\simulation\modelsim
+vBlock1
+I7Bhf`WAl0CPA@Vg;Ll=[F0
+VgBMJbOcg:^aA^lD9BaN2@1
+Z1 dC:\Users\Administrador\Desktop\Proyectos\ParteA\simulation\modelsim
+w1729552314
+8ParteA_7_1200mv_0c_slow.vo
+FParteA_7_1200mv_0c_slow.vo
+L0 31
+Z2 OV;L;10.1d;51
+r1
+31
+o-vlog01compat -work work -O0
+n@block1
+!i10b 1
+!s100 PdGj6>6EbBRzGjFfQ[K;=3
+!s85 0
+!s108 1729552460.234000
+!s107 ParteA_7_1200mv_0c_slow.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|ParteA_7_1200mv_0c_slow.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+Epartea_testbench
+Z3 w1729550279
+Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+R1
+Z6 8C:/Users/Administrador/Desktop/Proyectos/ParteA/ParteA_testbench.vhd
+Z7 FC:/Users/Administrador/Desktop/Proyectos/ParteA/ParteA_testbench.vhd
+l0
+L4
+VJDah0aXW:8>dN6cVeEbBn2
+!s100 ii9KZzb8d[gL^hLDbddNK2
+Z8 OV;C;10.1d;51
+31
+!i10b 1
+Z9 !s108 1729552460.328000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/Administrador/Desktop/Proyectos/ParteA/ParteA_testbench.vhd|
+Z11 !s107 C:/Users/Administrador/Desktop/Proyectos/ParteA/ParteA_testbench.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+Abehavior
+R4
+R5
+DEx4 work 16 partea_testbench 0 22 JDah0aXW:8>dN6cVeEbBn2
+l24
+L7
+V0mZonJi41RDaMfc3]eIRW0
+!s100 `E28@zOg=MZC`Ci@EcXLS2
+R8
+31
+!i10b 1
+R9
+R10
+R11
+R12
+R13
