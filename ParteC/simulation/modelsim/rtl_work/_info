@@ -1,0 +1,75 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Administrador\Desktop\Proyectos\ParteC\simulation\modelsim
+Erestador_completo
+Z1 w1730827402
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\Administrador\Desktop\Proyectos\ParteC\simulation\modelsim
+Z5 8C:/Users/Administrador/Desktop/Proyectos/ParteC/restador_completo.vhd
+Z6 FC:/Users/Administrador/Desktop/Proyectos/ParteC/restador_completo.vhd
+l0
+L4
+VEGDh5928k9O301l=F4Y`V0
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1730828340.819000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/Administrador/Desktop/Proyectos/ParteC/restador_completo.vhd|
+Z10 !s107 C:/Users/Administrador/Desktop/Proyectos/ParteC/restador_completo.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 lQhFI07XMADaOTO5;BJWo1
+!i10b 1
+Abehavioral
+R2
+R3
+DEx4 work 17 restador_completo 0 22 EGDh5928k9O301l=F4Y`V0
+l14
+L13
+VCNW@46@KCo?Uaa[SZdflL2
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 5h;QWg@O;kil45khYY>TB3
+!i10b 1
+Erestador_completo_testbench2
+Z13 w1730827951
+R2
+R3
+R4
+Z14 8C:/Users/Administrador/Desktop/Proyectos/ParteC/restador_completo_testbench2.vhd
+Z15 FC:/Users/Administrador/Desktop/Proyectos/ParteC/restador_completo_testbench2.vhd
+l0
+L4
+V7>7dkmYSHgVW]<901jHUK0
+!s100 I[6ZP8llKT]z30bz3NTiC1
+R7
+31
+!i10b 1
+Z16 !s108 1730828340.937000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/Administrador/Desktop/Proyectos/ParteC/restador_completo_testbench2.vhd|
+Z18 !s107 C:/Users/Administrador/Desktop/Proyectos/ParteC/restador_completo_testbench2.vhd|
+R11
+R12
+Abehavior
+R2
+R3
+DEx4 work 28 restador_completo_testbench2 0 22 7>7dkmYSHgVW]<901jHUK0
+l27
+L6
+V=4i;OL`1?KJ1di65Gf4?I2
+!s100 g@6`f>O:PfN6A<IP:md7`3
+R7
+31
+!i10b 1
+R16
+R17
+R18
+R11
+R12

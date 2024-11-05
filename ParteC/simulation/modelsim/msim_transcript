@@ -1,0 +1,54 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do restador_completo_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/Administrador/Desktop/Proyectos/ParteC/restador_completo.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity restador_completo
+# -- Compiling architecture behavioral of restador_completo
+# 
+# vcom -93 -work work {C:/Users/Administrador/Desktop/Proyectos/ParteC/restador_completo_testbench2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity restador_completo_testbench2
+# -- Compiling architecture behavior of restador_completo_testbench2
+# ** Warning: [4] C:/Users/Administrador/Desktop/Proyectos/ParteC/restador_completo_testbench2.vhd(25): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrador/Desktop/Proyectos/ParteC/restador_completo_testbench2.vhd(47): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrador/Desktop/Proyectos/ParteC/restador_completo_testbench2.vhd(48): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrador/Desktop/Proyectos/ParteC/restador_completo_testbench2.vhd(49): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrador/Desktop/Proyectos/ParteC/restador_completo_testbench2.vhd(50): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrador/Desktop/Proyectos/ParteC/restador_completo_testbench2.vhd(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrador/Desktop/Proyectos/ParteC/restador_completo_testbench2.vhd(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrador/Desktop/Proyectos/ParteC/restador_completo_testbench2.vhd(53): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/Administrador/Desktop/Proyectos/ParteC/restador_completo_testbench2.vhd(54): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiii -L rtl_work -L work -voptargs="+acc"  restador_completo_testbench2
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps restador_completo_testbench2 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.restador_completo_testbench2(behavior)
+# Loading work.restador_completo(behavioral)
+# ** Error: (vsim-3732) C:/Users/Administrador/Desktop/Proyectos/ParteC/restador_completo_testbench2.vhd(35): No default binding for component instance 'uut'.
+# 
+#    The following component port is not on the entity:
+#           clk
+# 
+#         Region: /restador_completo_testbench2/uut
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./restador_completo_run_msim_rtl_vhdl.do PAUSED at line 12
