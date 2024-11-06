@@ -1,0 +1,6 @@
+
+State Machine - |Comparador|fstate
+Name fstate.nosoy fstate.sisoy fstate.oscioso 
+fstate.oscioso 0 0 0 
+fstate.sisoy 0 1 1 
+fstate.nosoy 1 0 1 

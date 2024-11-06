@@ -1,0 +1,13 @@
+|Comparador
+reset => reg_fstate.sisoy.OUTPUTSELECT
+reset => reg_fstate.oscioso.OUTPUTSELECT
+reset => reg_fstate.nosoy.OUTPUTSELECT
+reset => Soy.OUTPUTSELECT
+clock => fstate~1.DATAIN
+Regs => process_1.IN0
+Regs => process_1.IN0
+Dir => process_1.IN1
+Dir => process_1.IN1
+Soy <= Soy.DB_MAX_OUTPUT_PORT_TYPE
+
+
